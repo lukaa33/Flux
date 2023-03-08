@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap");
+body {
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  text-align: center;
+}
+ul {
+  margin: 75px 30px 350px;
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  row-gap: 25px;
+  padding: 10px;
+}
+
+li {
+  text-align: center;
+  display: flex;
+  background-color: #d9d9d9;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  overflow: hidden;
+  width: 400px;
+  height: 250px;
+}
+
+li img {
+  background-color: white;
+  width: 140px;
+  height: 220px;
+  object-fit: contain;
+  margin: 15px 10px;
+  border-radius: 10px;
+}
+li p{
+  margin-right:15px;
+}
+h2 {
+  margin-top: 30px;
+}
+section {
+  margin: 2rem auto;
+  width: 95%;
+}
+.hover-effect {
+  margin: 65px auto 35px -150px;
+  text-align: left;
+  
+}
+.hover-effect img {
+  background-color: white;
+  padding: 3px;
+  text-align: left;
+  width: 25px;
+  height: 25px;
+  
+}
+li:hover {
+  height: 400px;
+  width: 450px;
+  transition: 0.5s;
+  
+}
+li:hover > li img:hover {
+  height: 150px;
+  
+
+}
+li:hover > li img:hover > .hover-effect:hover {
+  visibility: visible;
+ 
+  
+}

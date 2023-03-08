@@ -1,0 +1,154 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+    margin-top: -16px;
+}
+.image{
+display: flex;
+justify-content: center;
+padding:50px;
+}
+img{  
+    width: 400px;
+
+}
+header {
+    background-color:#FF0000;
+}
+
+ul{
+    list-style: none;
+    padding: 12px;
+    box-shadow:2px 2px 5px rgb(68, 67, 67);
+    height: 35px;
+    margin-top: -8px;
+}
+li {
+    float: left;
+    margin-top: 5px;
+}
+.login {
+    float: right;
+    margin-top: 5px;
+}
+ .login a{
+margin: 0;
+padding: 0;
+}
+
+ul li a {
+    padding: 15px;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 5px;
+}
+
+ul li a:hover {
+    background-color: rgb(255, 59, 59);
+    text-decoration: none;
+    padding: 5px;
+    color:white;
+    border-radius: 10px;
+
+}
+
+h1{
+    font-size: 2rem;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem auto;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    width: 450px;
+    height: 425px;
+ background-color: #CACACA;
+ border-radius: 15px;
+ box-shadow: 2px 4px 6px rgb(68,67,67) ;
+ border: none;
+}
+
+h1{
+    text-transform: uppercase;
+}
+.checkbox{
+    display: inline;
+    
+}
+.checkbox input{
+    
+    width:25px;
+    height:50px;
+    position: relative;
+    left: 15px;
+    bottom: 20px;
+}
+label{
+    position: relative;
+    bottom:70px;
+    right: 100px;
+}
+input{
+    display: block;
+    border: none;
+    margin: 15px;
+    
+    
+    
+}
+p{
+    font-weight: bold;
+    margin: 0;
+}
+button{
+    display: block;
+    justify-content: center;
+    height: 45px;
+    width:400px;
+    margin: 1rem auto;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #ED2647;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow:2px 4px 6px rgb(94, 94, 94);
+    padding: 10px;
+    position: relative;
+    bottom: 50px; 
+  
+    
+}
+button:hover {
+    background-color: #ed3655;
+}
+form a{
+    text-transform: uppercase;
+    color: #ED2647;
+    text-decoration: none;
+    font-weight: bold;
+}
+form a:hover{
+    color: #db1435;
+   
+}
+#user-password input{
+    margin: 1rem auto;
+    margin-bottom: 2rem;
+    box-shadow:2px 4px 6px rgb(82, 82, 82);
+    width: 90%;
+    height: 31px;
+    padding: 4px;
+    border-radius: 12px;
+}
+#second{
+    position: relative;
+    bottom: 30px;
+}
+
