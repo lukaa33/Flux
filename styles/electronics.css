@@ -1,24 +1,31 @@
+/* Ukloniti prazne linije koda */
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap");
-#hr{
+
+#hr {
   margin: -25px auto;
   background-color: #ff0000;
   width: 350px;
   height: 1px;
 }
+
 section {
   font-family: "Montserrat", sans-serif;
   margin: 2rem auto;
   width: 95%;
 }
+
 h1 {
   text-align: center;
   font-size: 3rem;
 }
+
 h2 {
   margin-bottom: -50px;
   font-size: 2.2rem;
   margin-top: 85px;
 }
+
 ul {
   width: 100%;
 
@@ -49,18 +56,22 @@ li img {
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgb(68, 67, 67);
 }
+
 .info {
   margin-left: 10px;
   flex-direction: column;
 }
+
 .info h4 {
   font-size: 1.5rem;
 }
+
 .info p {
   margin: -20px 3px 0 0;
 
   color: rgba(0, 0, 0, 0.5);
 }
+
 .info button {
   margin-top: 20px;
   margin-left: 75px;
@@ -71,20 +82,24 @@ li img {
   color: white;
   padding: 10px;
   box-shadow: 2px 2px 5px rgb(68, 67, 67);
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
+
 #popular {
   margin-top: -305px;
 }
+
 #angle-left {
   height: 50px;
   width: 50px;
 }
+
 #angle-right {
   height: 50px;
   width: 50px;
 }
-button:hover{
+
+button:hover {
   background-color: #FF8989;
   border: 1px solid #FF8989;
 }

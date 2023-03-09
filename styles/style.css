@@ -1,4 +1,7 @@
+/* Ovo je glavni/osnovni CSS fajl koji ima najmanje koda? To se ne radi tako. Globalni kod koji važi za sve stranice pisati ovdje umjesto njegovog ponavljanja u svim CSS fajlovima. */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
     transition: all ease-in-out 0.3f;
     font-family: 'Montserrat', sans-serif;
