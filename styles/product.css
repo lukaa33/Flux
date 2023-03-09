@@ -25,6 +25,7 @@ nav {
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
+  text-transform: uppercase;
 }
 
 ul {
