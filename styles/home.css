@@ -1,3 +1,5 @@
+/* Ukloniti prazne linije koda */
+
 header {
     background-color: #ff3333;
 }
@@ -207,11 +209,13 @@ button:hover {
     background-color: #FF8989;
     border: 1px solid #FF8989;
 }
+
 #ad-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .section3 {
     justify-content: center;
     align-items: center;

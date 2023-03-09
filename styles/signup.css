@@ -1,37 +1,47 @@
-body{
+/* Ovaj fajl je trebao da se zove "sign_up.css" */
+
+/* Ukloniti prazne linije koda */
+
+body {
     font-family: 'Montserrat';
     margin: 0;
     margin-top: -16px;
 }
-.image{
+
+.image {
     display: flex;
     justify-content: center;
-    padding:50px;
-    }
-img{  
-    width: 400px;
-    
-}
-header {
-    background-color:#FF0000;
+    padding: 50px;
 }
 
-ul{
+img {
+    width: 400px;
+
+}
+
+header {
+    background-color: #FF0000;
+}
+
+ul {
     list-style: none;
     padding: 12px;
-    box-shadow:2px 2px 5px rgb(68, 67, 67);
+    box-shadow: 2px 2px 5px rgb(68, 67, 67);
     height: 35px;
     margin-top: -8px;
 }
+
 li {
     float: left;
     margin-top: 5px;
 }
+
 .login {
     float: right;
     margin-top: 5px;
 }
-.login a{
+
+.login a {
     margin: 0;
     padding: 0;
 }
@@ -47,48 +57,52 @@ ul li a {
 ul li a:hover {
     background-color: rgb(255, 59, 59);
     text-decoration: none;
-    color:white;
+    color: white;
     border-radius: 10px;
 
 }
 
-h1{
+h1 {
     font-size: 2rem;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
     margin: 0rem auto;
     text-align: center;
     width: 450px;
     height: 450px;
- background-color: rgb(221, 218, 218);
- border-radius: 15px;
- border: none;
- box-shadow: 2px 2px 5px rgb(68,67,67);
+    background-color: rgb(221, 218, 218);
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(68, 67, 67);
 }
 
-h1{
+h1 {
     text-transform: uppercase;
     padding-top: 10px;
 }
-input{
+
+input {
     display: block;
     border: none;
     margin: 18px;
     border-radius: 12px;
-    
-    
+
+
 }
-p{
+
+p {
     font-weight: bold;
     margin: 0;
 }
-button{
+
+button {
     display: block;
     justify-content: center;
     height: 40px;
-    width:400px;
+    width: 400px;
     margin: 1rem auto;
     color: white;
     font-size: large;
@@ -97,35 +111,40 @@ button{
     border: none;
     border-radius: 20px;
     text-transform: uppercase;
-    box-shadow:2px 4px 6px rgb(94, 94, 94);
+    box-shadow: 2px 4px 6px rgb(94, 94, 94);
     padding: 10px;
     position: relative;
     bottom: 10px;
-  
-    
+
+
 }
+
 button:hover {
     background-color: #ed3655;
 }
-form a{
+
+form a {
     text-transform: uppercase;
     color: #ED2647;
     text-decoration: none;
     font-weight: bold;
 }
-form a:hover{
+
+form a:hover {
     color: #db1435;
-   
+
 }
-#user-password input{
+
+#user-password input {
     margin: 1rem auto;
     margin-bottom: 1rem;
-    box-shadow:2px 4px 6px rgb(82, 82, 82);
+    box-shadow: 2px 4px 6px rgb(82, 82, 82);
     width: 90%;
     height: 28px;
     padding: 4px;
 }
-#second{
+
+#second {
     position: relative;
     bottom: 0px;
 }

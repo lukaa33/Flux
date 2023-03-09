@@ -1,7 +1,16 @@
+/* Na mnogo elemenata primjenjujete isti font i sve to radite više puta, ponavljajući istu liniju koda */
+
+/* Ovo rješava stvar */
+/* nav, #opis, button, p, select, h1 {
+   font-family: 'Montserrat', sans-serif;
+}*/
+
 body {
   margin: 0;
 }
 
+/* Klase nazivati isključivo na engleskom jeziku
+U ovom slučaju bi to bilo: .content {} */
 .sadrzaj {
   display: grid;
   place-content: center;
@@ -61,6 +70,7 @@ img {
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* #description{} */
 #opis {
   color: gray;
   text-align: left;

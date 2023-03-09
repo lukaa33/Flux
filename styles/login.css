@@ -1,39 +1,47 @@
-body{
-    font-family: 'Montserrat',sans-serif;
+/* Ukloniti prazne linije koda */
+
+body {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     margin-top: -16px;
 }
-.image{
-display: flex;
-justify-content: center;
-padding:50px;
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
-img{  
+
+img {
     width: 400px;
 
 }
+
 header {
-    background-color:#FF0000;
+    background-color: #FF0000;
 }
 
-ul{
+ul {
     list-style: none;
     padding: 12px;
-    box-shadow:2px 2px 5px rgb(68, 67, 67);
+    box-shadow: 2px 2px 5px rgb(68, 67, 67);
     height: 35px;
     margin-top: -8px;
 }
+
 li {
     float: left;
     margin-top: 5px;
 }
+
 .login {
     float: right;
     margin-top: 5px;
 }
- .login a{
-margin: 0;
-padding: 0;
+
+.login a {
+    margin: 0;
+    padding: 0;
 }
 
 ul li a {
@@ -49,16 +57,17 @@ ul li a:hover {
     background-color: rgb(255, 59, 59);
     text-decoration: none;
     padding: 5px;
-    color:white;
+    color: white;
     border-radius: 10px;
 
 }
 
-h1{
+h1 {
     font-size: 2rem;
 
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
     margin: 0rem auto;
@@ -67,49 +76,55 @@ form{
     text-align: center;
     width: 450px;
     height: 425px;
- background-color: #CACACA;
- border-radius: 15px;
- box-shadow: 2px 4px 6px rgb(68,67,67) ;
- border: none;
+    background-color: #CACACA;
+    border-radius: 15px;
+    box-shadow: 2px 4px 6px rgb(68, 67, 67);
+    border: none;
 }
 
-h1{
+h1 {
     text-transform: uppercase;
 }
-.checkbox{
+
+.checkbox {
     display: inline;
-    
+
 }
-.checkbox input{
-    
-    width:25px;
-    height:50px;
+
+.checkbox input {
+
+    width: 25px;
+    height: 50px;
     position: relative;
     left: 15px;
     bottom: 20px;
 }
-label{
+
+label {
     position: relative;
-    bottom:70px;
+    bottom: 70px;
     right: 100px;
 }
-input{
+
+input {
     display: block;
     border: none;
     margin: 15px;
-    
-    
-    
+
+
+
 }
-p{
+
+p {
     font-weight: bold;
     margin: 0;
 }
-button{
+
+button {
     display: block;
     justify-content: center;
     height: 45px;
-    width:400px;
+    width: 400px;
     margin: 1rem auto;
     color: white;
     font-size: 20px;
@@ -118,37 +133,41 @@ button{
     border: none;
     border-radius: 20px;
     text-transform: uppercase;
-    box-shadow:2px 4px 6px rgb(94, 94, 94);
+    box-shadow: 2px 4px 6px rgb(94, 94, 94);
     padding: 10px;
     position: relative;
-    bottom: 50px; 
-  
-    
+    bottom: 50px;
+
+
 }
+
 button:hover {
     background-color: #ed3655;
 }
-form a{
+
+form a {
     text-transform: uppercase;
     color: #ED2647;
     text-decoration: none;
     font-weight: bold;
 }
-form a:hover{
+
+form a:hover {
     color: #db1435;
-   
+
 }
-#user-password input{
+
+#user-password input {
     margin: 1rem auto;
     margin-bottom: 2rem;
-    box-shadow:2px 4px 6px rgb(82, 82, 82);
+    box-shadow: 2px 4px 6px rgb(82, 82, 82);
     width: 90%;
     height: 31px;
     padding: 4px;
     border-radius: 12px;
 }
-#second{
+
+#second {
     position: relative;
     bottom: 30px;
 }
-
