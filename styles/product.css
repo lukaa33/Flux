@@ -11,7 +11,7 @@ body {
 
 /* Klase nazivati isključivo na engleskom jeziku
 U ovom slučaju bi to bilo: .content {} */
-.sadrzaj {
+.content {
   display: grid;
   place-content: center;
 }
@@ -72,7 +72,7 @@ img {
 }
 
 /* #description{} */
-#opis {
+#description1 {
   color: gray;
   text-align: left;
   width: 600px;
