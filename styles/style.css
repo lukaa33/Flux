@@ -12,3 +12,48 @@
 body {
     background-color: whitesmoke;
 }
+
+header {
+    background-color: #ff3333;
+  }
+  
+  nav {
+    background-color: #ff3333;
+    height: 50px;
+    padding: 5px;
+    margin: 0 0 25px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    float: left;
+    margin: 0 10px 0 10px;
+  }
+  
+  li a:hover {
+    background-color: #ff8989;
+    border-radius: 8px;
+  }
+  
+  #login {
+    float: right;
+  }
+  
+  .nav-content {
+    display: block;
+    padding: 0 10px;
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  

@@ -11,7 +11,7 @@ body {
 
 /* Klase nazivati isključivo na engleskom jeziku
 U ovom slučaju bi to bilo: .content {} */
-.content {
+/* .content {
   display: grid;
   place-content: center;
 }
@@ -54,7 +54,7 @@ a {
   line-height: 50px;
   color: white;
   text-decoration: none;
-}
+} */
 
 #description {
   display: flex;

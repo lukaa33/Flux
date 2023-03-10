@@ -2,8 +2,6 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    margin-top: -16px;
 }
 
 .image {
@@ -17,7 +15,7 @@ img {
 
 }
 
-header {
+/* header {
     background-color: #FF0000;
 }
 
@@ -60,7 +58,7 @@ ul li a:hover {
     color: white;
     border-radius: 10px;
 
-}
+} */
 
 h1 {
     font-size: 2rem;
