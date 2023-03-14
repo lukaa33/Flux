@@ -1,1 +1,0 @@
-// Ne praviti fajlove i foldere koji se ne koriste
